@@ -1,0 +1,53 @@
+/* Estilos para os cards dos pokémons */
+.card {
+    border: 10px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Estilos para a seção de salvar time */
+  .save-team {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Estilos para o texto de boas vindas do ínicio*/
+
+  .Topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #frase1{
+    color: white;
+    font-size: 5rem;
+  }
+
+  .frase2{
+    color: white;
+    font-size: 2rem;
+  }
+
+  /* Estilo para o botão */
+
+  .save-team button{
+    border-radius: 15%;
+    background-color: blue;
+    color: white;
+  }
