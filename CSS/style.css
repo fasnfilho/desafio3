@@ -18,7 +18,13 @@
     display: block;
     margin: 0 auto;
   }
-
+    .card:hover{
+        border: 10px solid black;
+        border-radius: 10%;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: .5s;
+      }
   /* Estilos para a seção de salvar time */
   .save-team {
     margin-top: 20px;
